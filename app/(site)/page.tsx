@@ -1,14 +1,16 @@
 import { getProjects } from "@/sanity/sanity-utils";
 import Image from "next/image";
 import Link from "next/link";
+import Card from "./components/Card";
 
 export default async function Home() {
   const projects = await getProjects();
 
   return (
     <div>
+      <Card />
       <h1 className="text-7xl font-extrabold">
-        Hello I'm{" "}
+        Hello I&apos;m{" "}
         <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
           Misha
         </span>
