@@ -1,45 +1,31 @@
-import { getProjects } from "@/sanity/sanity-utils";
-import Image from "next/image";
-import Link from "next/link";
-import Card from "./components/Card";
+import { Card, Socials } from "./components";
+import { strings as s, designSummary, projectSummary } from "./constants";
 
 export default async function Home() {
-  const projects = await getProjects();
-
   return (
-    <div>
-      <Card />
-      <h1 className="text-7xl font-extrabold">
-        Hello I&apos;m{" "}
-        <span className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
-          Misha
-        </span>
-        !
-      </h1>
-      <p className="mt-3 text-xl text-gray-600">
-        Aloha everyone! Check out my projects!
-      </p>
-      <h2 className="mt-24 font-bold text-gray-700 text-3xl">My Projects</h2>
-      <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projects.map((project) => (
-          <Link
-            href={`/projects/${project.slug}`}
-            key={project._id}
-            className="border border-gray-500 rounded-lg p-1 hover:scale-105 hover:border-blue-500">
-            {project.image && (
-              <Image
-                src={project.image}
-                alt={project.name}
-                width={730}
-                height={300}
-                className="object-cover rounded-lg border"
-              />
-            )}
-            <div className="mt-2 font-extrabold bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
-              {project.name}
-            </div>
-          </Link>
-        ))}
+    <div className="flex flex-col gap-8">
+      <Socials />
+      <div className="flex flex-col justify-center gap-4">
+        <h1 className="flex font-serif text-7xl font-bold tracking-widest justify-center">
+          {s.projects.toUpperCase()}
+        </h1>
+        <div className="bg-[url('../public/layout/projects.png')] grid grid-cols-4 gap-6 auto-rows-fr">
+          <Card type="project" {...projectSummary.magnumOpus} />
+          <Card type="project" {...projectSummary.lighthouse} />
+          <Card type="project" {...projectSummary.wavy} />
+          <Card type="project" {...projectSummary.rescueAlerts} />
+        </div>
+      </div>
+      <div className="flex flex-col justify-center">
+        <h1 className="flex font-serif text-7xl font-bold tracking-widest justify-center">
+          {s.designs.toUpperCase()}
+        </h1>
+        <div className="bg-[url('../public/layout/designs.png')] grid grid-cols-4 gap-2">
+          <Card type="design" {...designSummary.brewLab} />
+          <Card type="design" {...designSummary.consensus} />
+          <Card type="design" {...designSummary.hayag} />
+          <Card type="design" {...designSummary.commissions} />
+        </div>
       </div>
     </div>
   );
