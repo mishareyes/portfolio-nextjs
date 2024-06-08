@@ -1,8 +1,20 @@
 export const strings = {
   misha: "Misha",
   seeMore: "See More",
+  aboutMe: "About Me",
   projects: "Projects",
   designs: "Designs",
+  contact: "Get In Touch",
+  intro: `I'm <strong>Misha Reyes</strong>, a software engineer and experienced graphic designer. 
+  I am currently pursuing a Bachelor of Arts degree in Computer Science at the University of British Columbia, Vancouver. 
+  I was born and raised in Manila, Philippines.`,
+  aboutMeInfo: `One thing you could hear me talking non-stop about are all my favorite TV shows: Brooklyn Nine-Nine, Avatar: The Last Airbender, 
+  Star Wars: Clone Wars, Adventure Time, Young Justice, The Good Place, How I Met Your Mother, Sherlock, Loki, Andor, and many, many more. At any given moment, I’m probably in the middle of 
+  binging a brand new series or rewatching a classic. While I watch my shows, I’m usually (sometimes even simultaneously :>) designing or coding, or both! These are the three things that I find I can do almost endlessly: 
+  trying to puzzle through an episode’s cliffhanger, a design challenge, or yet another bug in my code. In my spare time, I also love singing with my ukulele, scuba diving, badminton, wakeboarding, 
+  cooking & eating Filipino food (ily Jollibee!), advocating for gender equality in tech, and learning about UX/UI or blockchain.`,
+  hiThere: "Hi There!",
+  downloadResume: "Download Resume",
 };
 
 export const projectSummary = {

@@ -1,8 +1,24 @@
 @tailwind base;
+
+@layer base {
+  h1 {
+    @apply flex font-serif text-7xl font-bold tracking-widest justify-center;
+  }
+  h2 {
+    @apply flex font-serif text-4xl font-bold tracking-wider justify-center;
+  }
+  h3 {
+    @apply flex font-serif text-3xl italic;
+  }
+  section {
+    @apply bg-orange-100 bg-fixed flex flex-col justify-center gap-4 p-20 border-2 border-t-0 border-black;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
-    font-family: "Maragsa";
-    src: url("../public/fonts/Maragsa.otf");
+  font-family: "Maragsa";
+  src: url("../public/fonts/Maragsa.otf");
 }
