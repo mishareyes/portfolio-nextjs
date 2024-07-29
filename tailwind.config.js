@@ -20,6 +20,13 @@ module.exports = {
           "url(../public/layout/projects.png), linear-gradient(270deg, hsla(215deg, 76%, 73%, 0.8) 0%, rgba(255, 255, 255, 0) 80%)",
         designs:
           "url(../public/layout/designs.png), linear-gradient(90deg, hsla(243deg, 100%, 84%, 0.8) 0%, rgba(255, 255, 255, 0) 80%)",
+        contact: "url(../public/layout/contact_temp.png)",
+      },
+      flex: {
+        quarters: "0 0 calc(25.0% - 16px)",
+        thirds: "0 0 calc(33.33% - 16px)",
+        halves: "0 0 calc(50.0% - 16px)",
+        whole: "calc(100% - 16px",
       },
     },
     screens: {
@@ -36,6 +43,9 @@ module.exports = {
     fontFamily: {
       serif: ["Maragsa", "sans-serif"],
       sans: ["Inter var", ...defaultTheme.fontFamily.sans],
+    },
+    height: {
+      screen: ["100vh /* fallback for Opera, IE and etc. */", "100dvh"],
     },
   },
   plugins: [],

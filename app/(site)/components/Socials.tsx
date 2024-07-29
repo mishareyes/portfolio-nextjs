@@ -8,7 +8,7 @@ export default function Socials({ size = "medium" }: socialsProps) {
       <div>
         <a href="mailto:mishaoreyes@gmail.com" target="_blank">
           <svg
-            className="hover:fill-white hover:scale-105 active:fill-blue-300 duration-500"
+            className="hover:fill-white hover:scale-125 active:fill-blue-300 duration-500"
             xmlns="http://www.w3.org/2000/svg"
             fill="#000000"
             width="40"
@@ -21,7 +21,7 @@ export default function Socials({ size = "medium" }: socialsProps) {
       <div>
         <a href="https://www.linkedin.com/in/misha-reyes/" target="_blank">
           <svg
-            className="hover:fill-white hover:scale-105 active:fill-blue-300 duration-500"
+            className="hover:fill-white hover:scale-125 active:fill-blue-300 duration-500"
             xmlns="http://www.w3.org/2000/svg"
             fill="#000000"
             width="40"
@@ -34,7 +34,7 @@ export default function Socials({ size = "medium" }: socialsProps) {
       <div>
         <a href="https://www.instagram.com/misha.reyes/" target="_blank">
           <svg
-            className="hover:fill-white hover:scale-105 active:fill-blue-300 duration-500"
+            className="hover:fill-white hover:scale-125 active:fill-blue-300 duration-500"
             xmlns="http://www.w3.org/2000/svg"
             fill="#000000"
             width="40"
@@ -47,7 +47,7 @@ export default function Socials({ size = "medium" }: socialsProps) {
       <div>
         <a href="https://github.com/mishareyes" target="_blank">
           <svg
-            className="hover:fill-white hover:scale-105 active:fill-blue-300 duration-500"
+            className="hover:fill-white hover:scale-125 active:fill-blue-300 duration-500"
             xmlns="http://www.w3.org/2000/svg"
             fill="#000000"
             width="40"

@@ -11,7 +11,10 @@
     @apply flex font-serif text-3xl italic;
   }
   section {
-    @apply bg-orange-100 bg-fixed flex flex-col justify-center gap-4 p-20 border-2 border-t-0 border-black;
+    @apply bg-orange-100 bg-fixed bg-top flex flex-col justify-center gap-4 p-20 border-2 border-t-0 border-black;
+  }
+  strong {
+    @apply font-serif tracking-wider text-[22px];
   }
 }
 
@@ -21,4 +24,34 @@
 @font-face {
   font-family: "Maragsa";
   src: url("../public/fonts/Maragsa.otf");
+}
+
+.bg-flip {
+  background-size: 300% 100%;
+  background-image: linear-gradient(
+    to right,
+    hsla(31deg, 97%, 72%, 0.8) 0%,
+    hsla(252deg, 95%, 85%, 0.8) 43.23%,
+    hsla(212deg, 96%, 78%, 0.8) 68.75%,
+    hsla(171deg, 77%, 64%, 0.8) 100%
+  );
+}
+
+.bg-flip:hover {
+  background-position: 100% 0;
+  background-image: linear-gradient(
+    to right,
+    hsla(31deg, 97%, 72%, 0.8) 0%,
+    hsla(252deg, 95%, 85%, 0.8) 43.23%,
+    hsla(212deg, 96%, 78%, 0.8) 68.75%,
+    hsla(171deg, 77%, 64%, 0.8) 100%
+  );
+}
+
+.nav-logo:hover {
+  text-shadow: 0px 3px 10px white;
+}
+
+.nav-logo:active {
+  text-shadow: 0px -3px 10px #ffedd5;
 }
