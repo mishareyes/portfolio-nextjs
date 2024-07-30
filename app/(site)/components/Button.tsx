@@ -27,7 +27,7 @@ export default function Button({ label, color, link = "#" }: buttonProps) {
   return (
     <a href={link} target="_blank">
       <div
-        className={`flex justify-center rounded-full border-2 border-black text-sm px-4 py-2 ${bgColor}
+        className={`flex justify-center rounded-full border-2 border-black px-4 py-2 ${bgColor}
            hover:shadow-lg active:bg-neutral-300 active:text-neutral-600 active:shadow-none duration-300`}>
         {label}
       </div>

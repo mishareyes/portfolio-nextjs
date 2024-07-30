@@ -48,10 +48,10 @@ export default async function Home() {
       <Section id="designs" bg="bg-designs">
         <h1>{s.designs.toUpperCase()}</h1>
         <div className="flex flex-wrap gap-4 justify-center">
+          <Card type="design" {...designSummary.commissions} />
           <Card type="design" {...designSummary.brewLab} />
           <Card type="design" {...designSummary.consensus} />
           <Card type="design" {...designSummary.hayag} />
-          <Card type="design" {...designSummary.commissions} />
         </div>
       </Section>
       <Section id="contact" bg="bg-contact">

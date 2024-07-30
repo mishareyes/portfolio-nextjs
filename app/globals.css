@@ -16,6 +16,9 @@
   strong {
     @apply font-serif tracking-wider text-[22px];
   }
+  i {
+    @apply hover:text-blue-400 duration-300;
+  }
 }
 
 @tailwind components;
