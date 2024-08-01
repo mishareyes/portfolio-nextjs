@@ -117,7 +117,7 @@ export const brewLab_strings = {
   constructive criticism allowed me to really <b>grow as a designer and marketing strategist</b>. They also gave me sneak peeks into the operations and web development 
   side of things just so I could learn more about the business overall. They also allowed me a lot of freedom and independence with the role, 
   so I got to play a big part in <b>shaping today's public image</b> of Brew Lab.`,
-    `If you'd like to see more, make sure to check out Brew Lab PH's <i><a href="https://www.instagram.com/brewlab.ph/" target="_blank" rel="noopener noreferrer">Instagram!</a></i>`,
+    `If you'd like to see more, make sure to check out Brew Lab PH's <i><a href="https://www.instagram.com/brewlab.ph/" target="_blank" rel="noopener noreferrer">Instagram</a></i>!`,
   ],
   instagram: "https://www.instagram.com/brewlab.ph/",
   featured_project: [
@@ -147,67 +147,171 @@ export const brewLab_strings = {
     },
   ],
   gallery: [
-    {
-      src: "/brewlab/father1.jpg",
-      alt: "Father's Day Promo 1",
-    },
-    {
-      src: "/brewlab/ff2.jpg",
-      alt: "Ancient Beer Fun Fact",
-    },
-    {
-      src: "/brewlab/ipa2.jpg",
-      alt: "IPA Kit Promo 2",
-    },
+    [
+      {
+        src: "/brewlab/father1.jpg",
+        alt: "Father's Day Promo 1",
+      },
+      {
+        src: "/brewlab/ff3.jpg",
+        alt: "South Pole Beer Fun Fact",
+      },
+      {
+        src: "/brewlab/father4.jpg",
+        alt: "Father's Day Promo 4",
+      },
+    ],
+    [
+      {
+        src: "/brewlab/ff2.jpg",
+        alt: "Ancient Beer Fun Fact",
+      },
+      {
+        src: "/brewlab/random1.jpg",
+        alt: "Bundle Giveaway Promo",
+      },
+    ],
+    [
+      {
+        src: "/brewlab/ipa2.jpg",
+        alt: "IPA Kit Promo 2",
+      },
+      {
+        src: "/brewlab/ipa1.jpg",
+        alt: "IPA Kit Promo 1",
+      },
+      {
+        src: "/brewlab/random2.jpg",
+        alt: "Kombucha Post",
+      },
+    ],
+    [
+      {
+        src: "/brewlab/random4.jpg",
+        alt: "Happy Father's Day",
+      },
+      {
+        src: "/brewlab/ff1.jpg",
+        alt: "Trappist Monastery Beer Fun Fact ",
+      },
+      {
+        src: "/brewlab/random3.jpg",
+        alt: "Filler Post",
+      },
+    ],
     // {
-    //   src: "/brewlab/random4.jpg",
-    //   alt: "Happy Father's Day",
+    //   src: "/brewlab/ipa3.jpg",
+    //   alt: "IPA Kit Promo 3",
     // },
-    {
-      src: "/brewlab/ff3.jpg",
-      alt: "South Pole Beer Fun Fact",
-    },
     // {
-    //   src: "/brewlab/random1.jpg",
-    //   alt: "Bundle Giveaway Promo",
+    //   src: "/brewlab/ff4.jpg",
+    //   alt: "White House Beer Fun Fact",
     // },
-    {
-      src: "/brewlab/ipa3.jpg",
-      alt: "IPA Kit Promo 3",
-    },
-    {
-      src: "/brewlab/ipa1.jpg",
-      alt: "IPA Kit Promo 1",
-    },
-    {
-      src: "/brewlab/ff1.jpg",
-      alt: "Trappist Monastery Beer Fun Fact ",
-    },
-    {
-      src: "/brewlab/father4.jpg",
-      alt: "Father's Day Promo 4",
-    },
-    {
-      src: "/brewlab/ff4.jpg",
-      alt: "White House Beer Fun Fact",
-    },
-    {
-      src: "/brewlab/random2.jpg",
-      alt: "Kombucha Post",
-    },
-
-    {
-      src: "/brewlab/father2.jpg",
-      alt: "Father's Day Promo 2",
-    },
-    {
-      src: "/brewlab/random3.jpg",
-      alt: "Filler Post",
-    },
+    // {
+    //   src: "/brewlab/father2.jpg",
+    //   alt: "Father's Day Promo 2",
+    // },
     // {
     //   src: "/brewlab/father3.jpg",
     //   alt: "Father's Day Promo 3",
     // },
+  ],
+};
+
+export const consensus_strings = {
+  title: "Consensus",
+  par: [
+    `I worked as a <b>Product Designer for Consensus: the social card game where majority rules!</b> from 2019 to 2020. 
+    There had already been a previous design for the product, but I was given full creative freedom to establish a <b>brand new product branding and design</b> from scratch. 
+    With my help, Consensus was over 250% funded within less than a day of our launch. As of today, there are a total of 158 backers and $5000+ pledged for the product on Kickstarter.`,
+    `To set off on my task of establishing our new brand, I began with a <b>color scheme that revolves around blue</b>: the color that represents openness, depth, trust, loyalty, and sincerity. 
+    With how the game promotes socializing and opening up to your friends/family, blue's meanings would help foster important values. 
+    Next, I worked on a logo for Consensus. Most notably, the <b>"O" has a target bullseye</b>, which is in line with how part of the game is to point at people. 
+    We envisioned our brand to come off as <b>welcoming and playful</b>, as it is indeed a social card game. 
+    To accomplish this, we used a sans-serif font and integrated a simple colorful "confetti" embellishment on graphics (tiny triangles, circles, squares).`,
+    `Below are some of the <b>other graphics I designed</b> to populate our Kickstarter campaign. 
+    These posters communicated a large range of messages, such as: budget, production timeline, testimonials, reward tiers, point systems, and stretch goals. 
+    Overall, the challenge was to <b>draw as many people into the product</b> within the quickest amount of time by communicating large amounts of information as efficiently as possible. 
+    With how we accomplished our funding goal within less than a day of our launch, I'd like to think that we overcame this goal with overwhelming success!`,
+    `And that concludes my work with Consensus! It was my <b>first time having full creative freedom</b> over a product, 
+    especially as I worked as the sole designer. I learned so much from this experience and, after the initial learning curve of establishing a branding from scratch, 
+    really enjoyed expanding the designs and <b>learning to be more dynamic</b> with my style. This flexibility was illustrated when we introduced NSFW and Silicon Valley expansion packs into the game, 
+    with yellow and red accents now entering the usual blue color schemes. All these opportunities gave me the chance to <b>experiment and grow</b> a lot, 
+    and I am overjoyed to have something concrete that I can hold and say "I designed this!"`,
+    `If you'd like to see more, make sure to check out Consensus's <i><a href="https://www.kickstarter.com/projects/advith/consensus-the-social-card-game-where-majority-rules" target="_blank" rel="noopener noreferrer"> Kickstarter campaign </a></i>
+    and <i><a href="https://www.youtube.com/watch?v=8cCnIpSFEyA" target="_blank" rel="noopener noreferrer"/>Youtube promotion video</a></i>!`,
+  ],
+  website:
+    "https://www.kickstarter.com/projects/advith/consensus-the-social-card-game-where-majority-rules",
+  youtube: "https://www.youtube.com/watch?v=8cCnIpSFEyA",
+  featured_project: [
+    {
+      src: "/consensus/feature.png",
+      alt: "Product Redesign Landscape",
+    },
+    {
+      src: "/consensus/feature-port.png",
+      alt: "Product Redesign Portrait",
+    },
+  ],
+  gallery: [
+    // gallery is separated into columns
+    [
+      {
+        src: "/consensus/logo1.png",
+        alt: "Main Consensus Logo",
+      },
+      {
+        src: "/consensus/point2.png",
+        alt: "Point Scenario 4",
+      },
+      {
+        src: "/consensus/tier3.png",
+        alt: "$100 Reward Tier",
+      },
+    ],
+    [
+      {
+        src: "/consensus/timeline.png",
+        alt: "Kickstarter Timeline",
+      },
+      {
+        src: "/consensus/image.png",
+        alt: "Card Box Image",
+      },
+      {
+        src: "/consensus/testimonial.png",
+        alt: "Testimonials of Customers",
+      },
+    ],
+    [
+      {
+        src: "/consensus/point1.png",
+        alt: "Point Scenario 1",
+      },
+      {
+        src: "/consensus/goal.png",
+        alt: "Kickstarter Stretch Goals",
+      },
+      {
+        src: "/consensus/logo2.png",
+        alt: "NSFW Expansion Logo",
+      },
+    ],
+    [
+      {
+        src: "/consensus/tier1.png",
+        alt: "$18 Reward Tier",
+      },
+      {
+        src: "/consensus/logo3.png",
+        alt: "Silicon Valley Expansion Logo",
+      },
+      {
+        src: "/consensus/budget.png",
+        alt: "Kickstarter Budget",
+      },
+    ],
   ],
 };
 
