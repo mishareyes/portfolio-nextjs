@@ -21,6 +21,7 @@ module.exports = {
         designs:
           "url(../public/layout/designs.png), linear-gradient(90deg, hsla(243deg, 100%, 84%, 0.8) 0%, rgba(255, 255, 255, 0) 80%)",
         contact: "url(../public/layout/contact_temp.png)",
+        projectTitle: "url(../public/layout/project_title.png)",
       },
       flex: {
         quarters: "0 0 calc(25.0% - 16px)",

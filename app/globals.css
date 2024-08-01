@@ -40,7 +40,7 @@
   );
 }
 
-.bg-flip:hover {
+.bg-animation:hover {
   background-position: 100% 0;
   background-image: linear-gradient(
     to right,

@@ -3,6 +3,7 @@ import { Button } from ".";
 
 type cardProps = {
   type: "project" | "design";
+  newTab?: boolean;
   image: string;
   title: string;
   description: string;
@@ -12,6 +13,7 @@ type cardProps = {
 
 export default function Card({
   type,
+  newTab,
   image,
   title,
   description,
@@ -34,7 +36,12 @@ export default function Card({
         <h3>{title}</h3>
         <p className="font-semibold">{date}</p>
         <p className="font-sans text-sm">{description}</p>
-        <Button label={s.seeMore.toUpperCase()} color={color} link={link} />
+        <Button
+          label={s.seeMore.toUpperCase()}
+          color={color}
+          link={link}
+          newTab={newTab}
+        />
       </div>
     </div>
   );

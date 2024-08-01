@@ -2,9 +2,15 @@ type buttonProps = {
   label: string;
   color: "blue" | "violet" | "teal" | "orange";
   link?: string;
+  newTab?: boolean;
 };
 
-export default function Button({ label, color, link = "#" }: buttonProps) {
+export default function Button({
+  label,
+  color,
+  link = "#",
+  newTab = false,
+}: buttonProps) {
   let bgColor = "";
 
   // ideally, i would just use the ${color} as a variable itself in the string,
@@ -25,7 +31,7 @@ export default function Button({ label, color, link = "#" }: buttonProps) {
   }
 
   return (
-    <a href={link} target="_blank">
+    <a href={link} target={newTab ? "_blank" : undefined}>
       <div
         className={`flex justify-center rounded-full border-2 border-black px-4 py-2 ${bgColor}
            hover:shadow-lg active:bg-neutral-300 active:text-neutral-600 active:shadow-none duration-300`}>
