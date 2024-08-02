@@ -7,3 +7,4 @@ export { default as BackButton } from "./BackButton";
 export { default as Paragraph } from "./Paragraph";
 export { default as Social } from "./Social";
 export { default as Gallery } from "./Gallery";
+export { default as Tag } from "./Tag";

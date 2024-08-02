@@ -63,12 +63,14 @@ export default async function Home() {
         <MySocials />
       </Section>
 
-      <div
-        id="secret-footer"
-        className="justify-center border-2 border-t-0 border-black duration-500 bg-flip bg-animation">
-        {/* todo: add `cursor-pointer` to classNames once the link is added */}
-        <p className="text-center p-3">{s.secretFooter}</p>
-      </div>
+      <a href="/secret">
+        <div
+          id="secret-footer"
+          className="justify-center border-2 border-t-0 border-black duration-500 bg-flip bg-animation cursor-pointer">
+          {/* todo: add `cursor-pointer` to classNames once the link is added */}
+          <p className="text-center p-3">{s.secretFooter}</p>
+        </div>
+      </a>
     </div>
   );
 }

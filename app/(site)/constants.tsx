@@ -315,23 +315,200 @@ export const consensus_strings = {
   ],
 };
 
-export const secret = {
+export const hayag_strings = {
+  title: "Hayag Pilipinas",
+  par: [
+    `Fresh out of high school, my friends and I co-founded an initiative called <b>Hayag Pilipinas</b> in July of 2020. 
+    We were inspired to do so because we witnessed how much our fellow Filipinos were struggling, 
+    especially with the onslaught of the COVID-19 pandemic. Thus, we established a platform that bridges impoverished 
+    Filipino communities and those who wish to help. Since then, we have raised PhP48,900+ to provide <b>27,800 sanitary napkins</b>
+    for the inmates of the Correctional Institute for Women in Mandaluyong, Philippines. 
+    We have also raised PhP350,000+ to provide <b>tablets to 100+ scholars</b> who were previously unable to attend classes due to the transition to online learning. 
+    We also raised PhP1.5+ million to help rebuild the <b>typhoon-stricken communities</b> of Bicol after Typhoons Quinta, Rolly, and Ulysses.`,
+    `My particular role in Hayag was as a designer, where I helped design 15+ publication materials posted on social media. 
+    Employing techniques for <b>information design</b>, it was an interesting challenge to frame loads of information in a way 
+    that both entices and educates. A design of mine that I'd like to feature is <b>our initiative's logo</b>. 
+    I went through many, many drafts and versions (as detailed below ;P) before we all agreed on the logo design we have now – <b>a letter 'H' with a bridge in the middle</b>. 
+    This design incorporates our goal of 'bridging communities' seamlessly with our initiative name. 
+    Additionally, the names of our individual projects – pula, lila, kahel – are all <b>Filipino words of colors</b> (red, violet, orange). 
+    To signal a change in our projects, we <b>change the color of our logo</b> along with the color schemes of the graphic posts on our social media.`,
+    `Below are some of the <b>other graphics I designed</b> to be posted on our social media. You can see here our <b>varying color schemes of red, violet, and orange</b>, 
+    which each belong to their corresponding project. Our main platform of reach was on Instagram, so we often leveraged the <b>story and carousel features</b> of posts. 
+    We would try to catch the viewer's attention with a dynamic and bright cover photo, enticing them to scroll to the next slide, 
+    which contains a bigger bulk of the post's information.`,
+    `And that concludes my work with Hayag Pilipinas! This project means a lot to me as it was the first time any of my graphic designs had a 
+    <b>real, lasting impact on people's lives</b>. With every efficiently-designed post, 
+    we attracted more people who wanted to help, thus raising more money for Filipinos in need.`,
+    `If you'd like to see more, make sure to check out Hayag's <i><a href="https://hayagphl.carrd.co/" target="_blank" rel="noopener noreferrer">website</a></i>, 
+    <i><a href="https://www.instagram.com/hayag.phl/" target="_blank" rel="noopener noreferrer">Instagram</a></i>, and 
+    <i><a href="https://www.facebook.com/hayagphl/" target="_blank" rel="noopener noreferrer">Facebook</a></i>.`,
+  ],
+  website: "https://hayagphl.carrd.co/",
+  instagram: "https://www.instagram.com/hayag.phl/",
+  facebook: "https://www.facebook.com/hayagphl/",
+  featured_project: [
+    {
+      src: "/hayag/feature.png",
+      alt: "Logo Design Progression",
+    },
+  ],
+  gallery: [
+    // gallery is separated into columns
+    [
+      {
+        src: "/hayag/pula1.png",
+        alt: "Pula Donation Scenarios",
+      },
+      {
+        src: "/hayag/lila2.png",
+        alt: "Lila Total Donations 1",
+      },
+      {
+        src: "/hayag/lilalokal5.png",
+        alt: "Lila Lokal Partner Businesses",
+      },
+      {
+        src: "/hayag/lilalokal2.png",
+        alt: "Lila Lokal Mission",
+      },
+    ],
+    [
+      {
+        src: "/hayag/lilalokal7.png",
+        alt: "Lila Lokal Total Donations",
+      },
+      {
+        src: "/hayag/pula2.png",
+        alt: "Pula How To Donate",
+      },
+      {
+        src: "/hayag/lila4.png",
+        alt: "Lila Total Donations2",
+      },
+    ],
+    [
+      {
+        src: "/hayag/lilalokal1.png",
+        alt: "Lila Lokal Community Story",
+      },
+      {
+        src: "/hayag/kahel1.png",
+        alt: "Kahel Bicol Fleet of Hope",
+      },
+      {
+        src: "/hayag/lila3.png",
+        alt: "Lila Partner Businesses",
+      },
+      {
+        src: "/hayag/lilalokal6.png",
+        alt: "Lila Lokal Donations Breakdown",
+      },
+    ],
+    [
+      {
+        src: "/hayag/lila1.png",
+        alt: "Lila How To Donate",
+      },
+      {
+        src: "/hayag/lilalokal4.png",
+        alt: "Lila Lokal Thank You",
+      },
+      {
+        src: "/hayag/pula3.png",
+        alt: "Pula Monetary Donations",
+      },
+    ],
+  ],
+};
+
+export const secret_strings = {
   title: "This Website",
+  design: "The Design",
+  prototype: "The Prototype",
+  code1: "The Code 1.0",
+  code2: "The Code 2.0",
   par: [
     `CONGRATS! You've uncovered a <b>hidden page</b> 😲😲😲`,
-    `This website you're on right now is also a special project of mine. I have personally designed, prototyped, and coded this whole website from 
-    scratch over the Summer of 2022, and again in the Summer of 2024. Rather than use a website management platform such as Wordpress, Webflow, or Wix, I decided to code the website up myself. 
-    This was partly because I wanted extra practice for my frontend coding skills, but also because I did not want to be trapped within the templates that these platforms present. 
-    With code, I can be as flexible as I want with the design and even add in a little touch of my own personality and style into the final product. I'll be outlining below 
-    each step of the design/code process that I went through to come up with this website.`,
+    `This website you're on right now is a special project of mine. I have <b>personally designed, prototyped, and coded this entire website from scratch</b> over the Summer of 2022, and again in the Summer of 2024. 
+    Rather than using a website management platform like WordPress, Webflow, or Wix, I decided to code the website myself. 
+    This decision was partly to gain extra practice with my frontend coding skills, but also to avoid being constrained by the templates these platforms offer. 
+    Coding it myself allowed me to be <b>as flexible as I wanted</b> with the design and to add a personal touch to the final product. 
+    Below, I outline each step of the design and coding process that I went through to create this website.`,
+    `The website you see right now is <b>bursting with my personality</b>! I used four of my <b>favorite colors</b> – blue, peach, purple, and turquoise – and incorporated them into colorful and bright gradients. 
+    For text, I stuck to a solid black color to ensure great contrast with the bright colors, making it perfect for readability on screens. 
+    I chose <b>Inter as the body font</b> because it's a good basic serif font that also helps with readability. 
+    It's more rounded than fonts like Avenir or Lato, matching the overall aesthetic of my website. 
+    For the header font, I wanted something significant to me, so I chose Maragsâ, a font created by <b>Filipino artist</b> <i><a href="https://www.instagram.com/jad.otf/" target="_blank" rel="noopener noreferrer">John David Maza</a></i>. 
+    It boasts Filipino type styles with tapered tips and flowing strokes, mimicking Filipino accent marks.`,
+    `For the overall design aesthetic, I went for <b>fun gradient blobs</b> in the backgrounds of my pages. 
+    This trend, especially popular in website and UI design, uses more rounded shapes rather than flat edges. 
+    I find this allows for a more interesting flow and adds a playful aspect, which reflects my personality! 
+    I also incorporated <b>interactive animations</b> on every page to keep visitors entertained (which, in fact, is how you found this hidden page in the first place!). 
+    Adding a <b>solid black outline</b> around most of the shapes and buttons helps keep the design grounded and matches well with the black-colored text.`,
+    `Friends and family who have seen this website have all said how well it encapsulates me as a person, and I'm very proud of that fact. 
+    It has been a true pleasure working on this website, and I'm so glad you're here to see it now!`,
+    `I started by mapping out a prototype first on paper, then on <b>Figma</b>. 
+    The images below demonstrate my <b>paper prototype -> low-fidelity wireframe -> high-fidelity mockup process</b>. 
+    I found it easier to stick to a neutral color scheme in the initial planning stages, focusing more on building the skeleton of the website. 
+    After establishing a solid foundation, I was able to focus on building a color scheme and finding pictures to place.`,
+    `I used <b>vanilla HTML and CSS</b> to create my website. 
+    Since I didn't need to scale it and would keep it as static pages, this was the most straightforward route. 
+    It also helped me brush up on basic HTML and CSS concepts, such as flexbox and responsiveness for different device sizes. 
+    I used <b>JavaScript</b> to make my <b>navigation bar sticky and responsive</b>.`,
+    `As I added more pages and projects, maintaining individual CSS styles for all the components became more challenging. 
+    It looked messy and I was frequently repeating styling methods. 
+    That's when I discovered <b>SASS</b>, which offered a <b>cleaner way to structure my CSS</b> with features like nesting, variables, and mixins. 
+    Refactoring different parts of the site took some time, but through this process, I learned a lot about being detail-oriented and 
+    refactoring one part at a time – skills that have been extremely useful in my previous programming jobs.`,
+    `After completing my first co-op at Klue in Vancouver, I honed my <b>web development skills</b>, especially in React and TypeScript. 
+    When I made updates to my original portfolio website, I was frustrated by the redundancies and saw much potential for refactoring and abstraction. 
+    Eventually, I decided to completely overhaul my website and leverage <b>JavaScript/TypeScript frameworks of React (Next.js) and Tailwind CSS</b>. 
+    With these updated technologies, I was able to build reusable components and create new pages much more seamlessly.`,
+    `Using a <b>JavaScript framework like React</b> offered several advantages over plain HTML and CSS. 
+    React's <b>component-based architecture</b> allowed me to break down the UI into smaller, reusable pieces, making the code more modular and easier to maintain. 
+    This was a significant improvement over the repetitive and cumbersome nature of managing styles and markup in plain HTML and CSS. 
+    Additionally, Next.js, as a framework built on top of React, provided powerful features such as server-side rendering and static site generation, 
+    which <b>improved the performance and SEO</b> of my website.`,
+    `Tailwind CSS complemented this setup perfectly by providing utility-first CSS classes that 
+    significantly reduced the amount of custom CSS I had to write. This not only <b>sped up the development process</b> but also 
+    ensured a <b>consistent design system</b> across the site. The combination of Tailwind's design utilities and React's 
+    reusable components made it easier to implement <b>responsive designs and maintain a cohesive look and feel</b> throughout the site.`,
+    `Incorporating these modern web development tools allowed me to focus more on the functionality and aesthetics of my portfolio 
+    rather than getting bogged down with the intricacies of low-level styling and HTML structure. 
+    It also made my <b>codebase cleaner and more scalable</b>, setting a strong foundation for future enhancements. 
+    Overall, the shift to using a JavaScript framework was a game-changer, enabling me to deliver a more polished and professional website that truly represents my skills and personality.`,
+    `The website is still a work in progress. So many new projects and designs to add but not enough time to add them. 
+    But I find that every time I come back here, there's always something new to learn in website development. 
+    And finding new opportunities for growth is always a fun time :)`,
+    `And that concludes my work on my personal portfolio! I hope you enjoyed walking through my journey creating it, 
+    because I put a lot of my heart and personality into the entire process. 
+    This website is a manifestation of my dream to eventually grow into what the industry calls a 'unicorn developer' – 
+    thriving at the intersection of both design and technology. 🦄`,
   ],
   tech: [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Next.js",
     "HTML",
     "CSS/SASS",
-    "JavaScript",
     "GitHub",
     "Web Development",
     "Figma",
     "UX/UI Design",
+  ],
+  featured_project: [
+    [
+      {
+        src: "/secret/paper-prototype.jpg",
+        alt: "Website Paper Prototype",
+      },
+    ],
+    [
+      {
+        src: "/secret/prototype.png",
+        alt: "Website Figma Prototype",
+      },
+    ],
   ],
 };

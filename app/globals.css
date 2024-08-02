@@ -5,7 +5,7 @@
     @apply flex font-serif text-7xl font-bold tracking-widest justify-center;
   }
   h2 {
-    @apply flex font-serif text-4xl font-bold tracking-wider justify-center;
+    @apply flex font-serif text-4xl font-bold tracking-widest justify-center;
   }
   h3 {
     @apply flex font-serif text-3xl italic;

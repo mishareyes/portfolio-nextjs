@@ -7,15 +7,19 @@ type galleryImage = {
 
 type galleryProps = {
   images: galleryImage[][];
+  columns?: 2 | 4;
 };
 
-export default function Gallery({ images }: galleryProps) {
+export default function Gallery({ images, columns = 4 }: galleryProps) {
+  let className =
+    columns === 4
+      ? "lg:flex-[22%] lg:max-w-[22%] md:flex-[48%] md:max-w-[48%] flex-[100%] max-w-[100%]"
+      : "md:flex-[48%] md:max-w-[48%] flex-[100%] max-w-[100%]";
+
   return (
     <div className="flex flex-wrap place-content-center">
       {images.map((column, colIndex) => (
-        <div
-          key={colIndex}
-          className="lg:flex-[22%] lg:max-w-[22%] p-1 md:flex-[48%] md:max-w-[48%] flex-[100%] max-w-[100%]">
+        <div key={colIndex} className={className}>
           {column.map((image, imgIndex) => (
             <Image
               key={imgIndex}
@@ -24,6 +28,7 @@ export default function Gallery({ images }: galleryProps) {
               layout="responsive"
               width={400}
               height={400}
+              className="p-1"
             />
           ))}
         </div>
