@@ -1,6 +1,10 @@
-export default function BackButton() {
+type backButtonProps = {
+  returnTo?: string;
+};
+
+export default function BackButton({ returnTo = "/#" }: backButtonProps) {
   return (
-    <a href="/#designs">
+    <a href={returnTo}>
       <svg
         className="hover:fill-white hover:scale-125 active:fill-violet-300 duration-500"
         xmlns="http://www.w3.org/2000/svg"

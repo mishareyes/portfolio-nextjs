@@ -13,7 +13,7 @@ export default async function Page() {
   return (
     <>
       <section id={s.title}>
-        <BackButton />
+        <BackButton returnTo="/#designs" />
         <div className="bg-projectTitle bg-contain bg-center bg-no-repeat p-12 place-content-center">
           <h1 className="lg:text-7xl md:text-5xl sm:text-4xl">
             {s.title.toUpperCase()}

@@ -79,7 +79,7 @@ export const designSummaries = [
     image: "/consensus.png",
     description: `In my role as a Product Designer for Consensus: The Social Card Game, I developed the branding, designed the product box, and created digital posters. 
     Our Kickstarter campaign successfully raised over $5000!`,
-    link: "https://www.kickstarter.com/projects/advith/consensus-the-social-card-game-where-majority-rules", // update to /consensus
+    link: "/consensus",
   },
   {
     title: "Hayag Pilipinas",
@@ -87,7 +87,7 @@ export const designSummaries = [
     image: "/hayag.png",
     description: `As a co-founder and graphic designer for Hayag Pilipinas, 
     I focused on information design to produce impactful social media posts. Our efforts significantly boosted our online presence and engagement, especially during the COVID-19 pandemic.`,
-    link: "https://www.instagram.com/hayag.phl/", // update to /hayag
+    link: "/hayag",
   },
 ];
 
