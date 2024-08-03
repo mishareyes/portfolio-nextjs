@@ -466,23 +466,16 @@ export const secret_strings = {
     That's when I discovered <b>SASS</b>, which offered a <b>cleaner way to structure my CSS</b> with features like nesting, variables, and mixins. 
     Refactoring different parts of the site took some time, but through this process, I learned a lot about being detail-oriented and 
     refactoring one part at a time – skills that have been extremely useful in my previous programming jobs.`,
-    `After completing my first co-op at Klue in Vancouver, I honed my <b>web development skills</b>, especially in React and TypeScript. 
-    When I made updates to my original portfolio website, I was frustrated by the redundancies and saw much potential for refactoring and abstraction. 
-    Eventually, I decided to completely overhaul my website and leverage <b>JavaScript/TypeScript frameworks of React (Next.js) and Tailwind CSS</b>. 
-    With these updated technologies, I was able to build reusable components and create new pages much more seamlessly.`,
-    `Using a <b>JavaScript framework like React</b> offered several advantages over plain HTML and CSS. 
-    React's <b>component-based architecture</b> allowed me to break down the UI into smaller, reusable pieces, making the code more modular and easier to maintain. 
-    This was a significant improvement over the repetitive and cumbersome nature of managing styles and markup in plain HTML and CSS. 
-    Additionally, Next.js, as a framework built on top of React, provided powerful features such as server-side rendering and static site generation, 
-    which <b>improved the performance and SEO</b> of my website.`,
-    `Tailwind CSS complemented this setup perfectly by providing utility-first CSS classes that 
-    significantly reduced the amount of custom CSS I had to write. This not only <b>sped up the development process</b> but also 
-    ensured a <b>consistent design system</b> across the site. The combination of Tailwind's design utilities and React's 
-    reusable components made it easier to implement <b>responsive designs and maintain a cohesive look and feel</b> throughout the site.`,
-    `Incorporating these modern web development tools allowed me to focus more on the functionality and aesthetics of my portfolio 
-    rather than getting bogged down with the intricacies of low-level styling and HTML structure. 
-    It also made my <b>codebase cleaner and more scalable</b>, setting a strong foundation for future enhancements. 
-    Overall, the shift to using a JavaScript framework was a game-changer, enabling me to deliver a more polished and professional website that truly represents my skills and personality.`,
+    `After my first co-op at Klue in Vancouver, I sharpened my <b>web development skills</b>, particularly in React and TypeScript. 
+    When I updated my original portfolio website, I felt frustrated by the redundancies and saw a huge potential for improvement. 
+    This inspired me to completely overhaul the site using <b>React (Next.js) and Tailwind CSS</b>. 
+    These technologies allowed me to create reusable components, streamline the development process, 
+    and <b>improve the site's performance and SEO</b> with Next.js's advanced features.`,
+    `Switching to a JavaScript framework offered several advantages over plain HTML and CSS. 
+    React's <b>component-based architecture</b> made my code more modular and easier to maintain. 
+    Tailwind's utility-first CSS classes significantly reduced the amount of custom CSS I needed, ensuring a <b>consistent design system</b> across the site. 
+    This combination allowed me to focus more on the functionality and aesthetics of my portfolio, 
+    making it <b>cleaner, more scalable, and truly reflective</b> of my skills and personality.`,
     `The website is still a work in progress. So many new projects and designs to add but not enough time to add them. 
     But I find that every time I come back here, there's always something new to learn in website development. 
     And finding new opportunities for growth is always a fun time :)`,

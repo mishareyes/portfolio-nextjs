@@ -78,10 +78,8 @@ export default async function Page() {
         <Paragraph>{s.par[8]}</Paragraph>
         <Paragraph>{s.par[9]}</Paragraph>
         <Paragraph>{s.par[10]}</Paragraph>
-        <Paragraph>{s.par[11]}</Paragraph>
-        <Paragraph>{s.par[12]}</Paragraph>
         <hr className="border-t-4 border-dotted border-orange-300" />
-        <Paragraph>{s.par[13]}</Paragraph>
+        <Paragraph>{s.par[11]}</Paragraph>
       </section>
       <div className="justify-center border-2 border-t-0 border-black bg-flip p-3">
         <MySocials size="small" />
