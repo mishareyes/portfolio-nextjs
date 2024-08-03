@@ -43,7 +43,7 @@ export default async function Page() {
         </div>
         <div className="flex flex-wrap justify-center">
           {s.tech.map((item, index) => (
-            <Tag label={item} colorIndex={index} />
+            <Tag label={item} colorIndex={index} key={index} />
           ))}
         </div>
         <Paragraph>{s.par[0]}</Paragraph>

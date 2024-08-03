@@ -1,5 +1,6 @@
 import { strings as s } from "../constants";
 import { Button } from ".";
+import Image from "next/image";
 
 type cardProps = {
   type: "project" | "design";
@@ -27,9 +28,11 @@ export default function Card({
       className={`xl:flex-quarters lg:flex-thirds md:flex-halves flex-whole max-w-xs
       flex-col bg-white rounded-3xl border-2 border-black text-center duration-500
       hover:scale-105 hover:rotate-1 hover:shadow-xl`}>
-      <img
+      <Image
         src={image}
         alt={`${title} Image`}
+        width={400}
+        height={400}
         className="rounded-t-3xl border-b-2 border-black object-cover"
       />
       <div className="flex flex-col items-center m-4 gap-2 h-full">

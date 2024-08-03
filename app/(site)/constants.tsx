@@ -20,21 +20,19 @@ export const strings = {
 
 export const projectSummaries = [
   {
-    title: "Magnum Opus",
-    date: "January - May 2022",
-    image: "/magnum-opus.jpg",
-    description: `A solana-based NFT project. I curated 80+ original art pieces. I also
-        worked on coding the NFT minting page using JavaScript React and built
-        the generator for 8000+ images, each with its own coded rarity.`,
-    link: "https://www.magnum-opus.xyz/",
+    title: "HearToStudy",
+    date: "March 2024",
+    image: "/hear-to-study.png",
+    description: `A web app built using React and Flask at the cmd-f hackathon that enhances educational accessibility 
+    by transcribing lectures, summarizing notes, and creating flashcards – leveraging Cohere AI.`,
+    link: "https://devpost.com/software/hear4you",
   },
   {
     title: "Lighthouse",
     date: "February 2022",
     image: "/lighthouse.jpg",
     description: `A women’s safety app that uses streetlight map data to guide users to the safest route home. 
-        Integrates the Google Maps & Twilio APIs. Won 1st Prize for ‘Best Hack to Support Women’ 
-        in HackViolet 2022.`,
+        Integrates the Google Maps & Twilio APIs. Won 1st Prize for ‘Best Hack to Support Women’ in HackViolet 2022.`,
     link: "https://devpost.com/software/lighthouse-pz2tkj",
   },
   {
@@ -42,8 +40,7 @@ export const projectSummaries = [
     date: "April - August 2022",
     image: "/wavy.png",
     description: `A social platform that helps university students make friends and hang out. 
-    Our team engineered the mobile app using TypeScript & React Native 
-    and focus on front-end design/ implementation.`,
+    Our team engineered the mobile app using TypeScript & React Native. I focus on front-end design/ implementation.`,
     link: "https://www.hiwavy.com/",
   },
   {
@@ -54,6 +51,15 @@ export const projectSummaries = [
     with an interactive GUI (Java Swing). Inspired by observing disaster response patterns in the Philippines.`,
     link: "https://github.com/mishareyes/rescuealerts",
   },
+  // {
+  //   title: "Magnum Opus",
+  //   date: "January - May 2022",
+  //   image: "/magnum-opus.jpg",
+  //   description: `A solana-based NFT project. I curated 80+ original art pieces. I also
+  //       worked on coding the NFT minting page using JavaScript React and built
+  //       the generator for 8000+ images, each with its own coded rarity.`,
+  //   link: "https://www.magnum-opus.xyz/",
+  // },
 ];
 
 export const designSummaries = [

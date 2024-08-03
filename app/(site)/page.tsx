@@ -7,6 +7,7 @@ import {
   Paragraph,
 } from "./components";
 import { strings as s, designSummaries, projectSummaries } from "./constants";
+import Image from "next/image";
 
 export default async function Home() {
   return (
@@ -31,9 +32,11 @@ export default async function Home() {
               newTab
             />
           </div>
-          <img
+          <Image
             src="/headshot.png"
             alt="Misha Reyes Headshot"
+            width={800}
+            height={800}
             className="object-contain md:w-2/5 md:max-w-sm md:pt-0 pt-8
             duration-500 hover:scale-105 hover:rotate-1"
           />
