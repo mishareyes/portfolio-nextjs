@@ -11,7 +11,7 @@
     @apply flex font-serif text-3xl italic;
   }
   section {
-    @apply bg-orange-100 bg-fixed bg-top flex flex-col justify-center gap-4 p-20 border-2 border-t-0 border-black;
+    @apply bg-orange-100 bg-fixed bg-top flex flex-col justify-center gap-4 md:p-20 p-10 border-2 border-t-0 border-black;
   }
   strong {
     @apply font-serif tracking-wider text-[22px];

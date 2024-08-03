@@ -1,6 +1,6 @@
 import "../globals.css";
 import type { Metadata } from "next";
-import { strings as s } from "./constants";
+import { Navbar } from "./components";
 
 export const metadata: Metadata = {
   title: "Misha Reyes",
@@ -13,42 +13,13 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const NavItem = ({ href, text }: { href: string; text: string }) => {
-    return (
-      <li>
-        <a
-          href={href}
-          className="flex text-xl hover:text-white active:text-background transition ease-in-out 
-                duration-300 active:underline decoration-dotted decoration-[3px]">
-          {text}
-        </a>
-      </li>
-    );
-  };
-
   return (
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </head>
       <body className="bg-background">
-        <nav className="bg-nav sticky top-0 w-full flex flex-wrap border-b-2 border-black justify-between backdrop-blur-sm z-10">
-          <a href="/#">
-            <h2
-              className={`p-2 px-6 duration-300 hover:text-white active:text-background nav-logo`}>
-              {s.misha.toLowerCase()}
-            </h2>
-          </a>
-          {/* TODO: change into responsive hamburger menu */}
-          <ul
-            id="navlist"
-            className="flex flex-row flex-wrap gap-8 self-center px-6">
-            <NavItem href="/#about-me" text={s.aboutMe} />
-            <NavItem href="/#projects" text={s.projects} />
-            <NavItem href="/#designs" text={s.designs} />
-            <NavItem href="/#contact" text={s.contact} />
-          </ul>
-        </nav>
+        <Navbar />
         <div className="bg-background">
           <main>{children}</main>
         </div>
