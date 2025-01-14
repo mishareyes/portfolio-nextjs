@@ -47,7 +47,12 @@ export default async function Home() {
         <h1>{s.projects.toUpperCase()}</h1>
         <div className="flex flex-wrap gap-4 justify-center">
           {projectSummaries.map((project, index) => (
-            <Card type="project" newTab {...project} key={index} />
+            <Card
+              type="project"
+              {...project}
+              key={index}
+              newTab={project.newTab}
+            />
           ))}
         </div>
       </Section>
@@ -56,7 +61,12 @@ export default async function Home() {
         <h1>{s.designs.toUpperCase()}</h1>
         <div className="flex flex-wrap gap-4 justify-center">
           {designSummaries.map((design, index) => (
-            <Card type="design" newTab {...design} key={index} />
+            <Card
+              type="design"
+              {...design}
+              key={index}
+              newTab={design.newTab}
+            />
           ))}
         </div>
       </Section>

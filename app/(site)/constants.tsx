@@ -26,6 +26,7 @@ export const projectSummaries = [
     description: `A web app built using React and Flask at the cmd-f hackathon that enhances educational accessibility 
     by transcribing lectures, summarizing notes, and creating flashcards – leveraging Cohere AI.`,
     link: "https://devpost.com/software/hear4you",
+    newTab: true,
   },
   {
     title: "Lighthouse",
@@ -34,6 +35,7 @@ export const projectSummaries = [
     description: `A women’s safety app that uses streetlight map data to guide users to the safest route home. 
         Integrates the Google Maps & Twilio APIs. Won 1st Prize for ‘Best Hack to Support Women’ in HackViolet 2022.`,
     link: "https://devpost.com/software/lighthouse-pz2tkj",
+    newTab: true,
   },
   {
     title: "Wavy",
@@ -42,6 +44,7 @@ export const projectSummaries = [
     description: `A social platform that helps university students make friends and hang out. 
     Our team engineered the mobile app using TypeScript & React Native. I focus on front-end design/ implementation.`,
     link: "https://www.hiwavy.com/",
+    newTab: true,
   },
   {
     title: "RescueAlerts",
@@ -50,6 +53,7 @@ export const projectSummaries = [
     description: `A Java-based typhoon rescue alerts app where people can post, view, & respond to rescue alerts 
     with an interactive GUI (Java Swing). Inspired by observing disaster response patterns in the Philippines.`,
     link: "https://github.com/mishareyes/rescuealerts",
+    newTab: true,
   },
   // {
   //   title: "Magnum Opus",
@@ -70,6 +74,7 @@ export const designSummaries = [
     description: `I run my own art account on Instagram (@sashimish.psd), where I accept commissions for personalized portraits. 
     My work has been well-received, allowing me to connect with clients and bring their visions to life. Com-MISH-ion me!`,
     link: "https://www.instagram.com/sashimish.psd/",
+    newTab: true,
   },
   {
     title: "Brew Lab",
@@ -78,6 +83,7 @@ export const designSummaries = [
     description: `As a Design Intern at Brew Lab in the Philippines, I created engaging infographics, social media posts, and various graphic collaterals. 
     My effective marketing strategies contributed to an 88% increase in sales growth.`,
     link: "/brew-lab",
+    newTab: false,
   },
   {
     title: "Consensus",
@@ -86,6 +92,7 @@ export const designSummaries = [
     description: `In my role as a Product Designer for Consensus: The Social Card Game, I developed the branding, designed the product box, and created digital posters. 
     Our Kickstarter campaign successfully raised over $5000!`,
     link: "/consensus",
+    newTab: false,
   },
   {
     title: "Hayag Pilipinas",
@@ -94,6 +101,7 @@ export const designSummaries = [
     description: `As a co-founder and graphic designer for Hayag Pilipinas, 
     I focused on information design to produce impactful social media posts. Our efforts significantly boosted our online presence and engagement, especially during the COVID-19 pandemic.`,
     link: "/hayag",
+    newTab: false,
   },
 ];
 
@@ -110,12 +118,12 @@ export const brewLab_strings = {
   designing around 2-3 graphic posts per week. With consistent engagement and effective information design, our marketing strategies contributed to an orders-per-month increase of 88%. 
   I joined the team when a solid brand was already established, so the challenge for me was to take the existing aesthetic, spin it into something that fits my personal style, 
   and also make it versatile enough to produce multiple posts in a short amount of time.`,
-    `My very first project was to design an <b>infographic of the beer-brewing process</b> featuring some of Brew Lab's original beginner kits. 
+    `My very first project was to design an <b><u>infographic of the beer-brewing process</u></b> featuring some of Brew Lab's original beginner kits. 
   The challenge here was depicting that there was a specific process/flow to follow, with some steps even being repeated. Using the <b>carousel feature of Instagram</b>, 
   I used <b>large arrows</b> to communicate to the user to scroll to the next slide for more information. On the instruction that repeats a step (Step 06 -> Step 02),
   there is also a smaller but still noticeable <b>arrow below that doubles back</b> past multiple slides to a previous step for the user's ease of navigation.
   Overall, I'm proudest of this design as it delivers a lot of information to the user, but also smoothly guides them through it in a fashion that highlights Brew Lab's brand.`,
-    `Below are some of the <b>other posts I designed</b> throughout the year depending on the specific events and sales strategies that our team decided upon. 
+    `Below are some of the <b><u>other posts I designed</u></b> throughout the year depending on the specific events and sales strategies that our team decided upon. 
   We would hold special promotions for holidays such as Valentine's Day, Father's Day, or Christmas. We would also have giveaways to promote new flavors or items in our store.
   <b>Graphic text-based posts</b> such as these would be interwoven with professional studio images of our products on our social media pages, 
   in order to create a feed that does not overwhelm with text, but engages the user with varied content.`,
@@ -230,12 +238,12 @@ export const consensus_strings = {
     `I worked as a <b>Product Designer for Consensus: the social card game where majority rules!</b> from 2019 to 2020. 
     There had already been a previous design for the product, but I was given full creative freedom to establish a <b>brand new product branding and design</b> from scratch. 
     With my help, Consensus was over 250% funded within less than a day of our launch. As of today, there are a total of 158 backers and $5000+ pledged for the product on Kickstarter.`,
-    `To set off on my task of establishing our new brand, I began with a <b>color scheme that revolves around blue</b>: the color that represents openness, depth, trust, loyalty, and sincerity. 
+    `To set off on my task of <b><u>establishing our new brand</u></b>, I began with a <b>color scheme that revolves around blue</b>: the color that represents openness, depth, trust, loyalty, and sincerity. 
     With how the game promotes socializing and opening up to your friends/family, blue's meanings would help foster important values. 
     Next, I worked on a logo for Consensus. Most notably, the <b>"O" has a target bullseye</b>, which is in line with how part of the game is to point at people. 
     We envisioned our brand to come off as <b>welcoming and playful</b>, as it is indeed a social card game. 
     To accomplish this, we used a sans-serif font and integrated a simple colorful "confetti" embellishment on graphics (tiny triangles, circles, squares).`,
-    `Below are some of the <b>other graphics I designed</b> to populate our Kickstarter campaign. 
+    `Below are some of the <b><u>other graphics I designed</u></b> to populate our Kickstarter campaign. 
     These posters communicated a large range of messages, such as: budget, production timeline, testimonials, reward tiers, point systems, and stretch goals. 
     Overall, the challenge was to <b>draw as many people into the product</b> within the quickest amount of time by communicating large amounts of information as efficiently as possible. 
     With how we accomplished our funding goal within less than a day of our launch, I'd like to think that we overcame this goal with overwhelming success!`,
@@ -333,12 +341,12 @@ export const hayag_strings = {
     We also raised PhP1.5+ million to help rebuild the <b>typhoon-stricken communities</b> of Bicol after Typhoons Quinta, Rolly, and Ulysses.`,
     `My particular role in Hayag was as a designer, where I helped design 15+ publication materials posted on social media. 
     Employing techniques for <b>information design</b>, it was an interesting challenge to frame loads of information in a way 
-    that both entices and educates. A design of mine that I'd like to feature is <b>our initiative's logo</b>. 
+    that both entices and educates. A design of mine that I'd like to feature is <b><u>our initiative's logo</u></b>. 
     I went through many, many drafts and versions (as detailed below ;P) before we all agreed on the logo design we have now – <b>a letter 'H' with a bridge in the middle</b>. 
     This design incorporates our goal of 'bridging communities' seamlessly with our initiative name. 
     Additionally, the names of our individual projects – pula, lila, kahel – are all <b>Filipino words of colors</b> (red, violet, orange). 
     To signal a change in our projects, we <b>change the color of our logo</b> along with the color schemes of the graphic posts on our social media.`,
-    `Below are some of the <b>other graphics I designed</b> to be posted on our social media. You can see here our <b>varying color schemes of red, violet, and orange</b>, 
+    `Below are some of the <b><u>other graphics I designed</u></b> to be posted on our social media. You can see here our <b>varying color schemes of red, violet, and orange</b>, 
     which each belong to their corresponding project. Our main platform of reach was on Instagram, so we often leveraged the <b>story and carousel features</b> of posts. 
     We would try to catch the viewer's attention with a dynamic and bright cover photo, enticing them to scroll to the next slide, 
     which contains a bigger bulk of the post's information.`,
